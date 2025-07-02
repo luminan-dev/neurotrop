@@ -1,0 +1,280 @@
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-Bold.woff2') format('woff2'),
+        url('TTAutonomousTrl-Bold.woff') format('woff'),
+        url('TTAutonomousTrl-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-DemiBoldIt.woff2') format('woff2'),
+        url('TTAutonomousTrl-DemiBoldIt.woff') format('woff'),
+        url('TTAutonomousTrl-DemiBoldIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-BoldIt.woff2') format('woff2'),
+        url('TTAutonomousTrl-BoldIt.woff') format('woff'),
+        url('TTAutonomousTrl-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-Regular.woff2') format('woff2'),
+        url('TTAutonomousTrl-Regular.woff') format('woff'),
+        url('TTAutonomousTrl-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-Light.woff2') format('woff2'),
+        url('TTAutonomousTrl-Light.woff') format('woff'),
+        url('TTAutonomousTrl-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-It.woff2') format('woff2'),
+        url('TTAutonomousTrl-It.woff') format('woff'),
+        url('TTAutonomousTrl-It.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-ExtraLightIt.woff2') format('woff2'),
+        url('TTAutonomousTrl-ExtraLightIt.woff') format('woff'),
+        url('TTAutonomousTrl-ExtraLightIt.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-ExtraLight.woff2') format('woff2'),
+        url('TTAutonomousTrl-ExtraLight.woff') format('woff'),
+        url('TTAutonomousTrl-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-ExtraBoldIt.woff2') format('woff2'),
+        url('TTAutonomousTrl-ExtraBoldIt.woff') format('woff'),
+        url('TTAutonomousTrl-ExtraBoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-DemiBold.woff2') format('woff2'),
+        url('TTAutonomousTrl-DemiBold.woff') format('woff'),
+        url('TTAutonomousTrl-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-LightIt.woff2') format('woff2'),
+        url('TTAutonomousTrl-LightIt.woff') format('woff'),
+        url('TTAutonomousTrl-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-MediumIt.woff2') format('woff2'),
+        url('TTAutonomousTrl-MediumIt.woff') format('woff'),
+        url('TTAutonomousTrl-MediumIt.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-ExtraBold.woff2') format('woff2'),
+        url('TTAutonomousTrl-ExtraBold.woff') format('woff'),
+        url('TTAutonomousTrl-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-Medium.woff2') format('woff2'),
+        url('TTAutonomousTrl-Medium.woff') format('woff'),
+        url('TTAutonomousTrl-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-ExtraBoldIt_1.woff2') format('woff2'),
+        url('TTAutonomousTrl-ExtraBoldIt_1.woff') format('woff'),
+        url('TTAutonomousTrl-ExtraBoldIt_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-MediumIt_1.woff2') format('woff2'),
+        url('TTAutonomousTrl-MediumIt_1.woff') format('woff'),
+        url('TTAutonomousTrl-MediumIt_1.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-ExtraBold_1.woff2') format('woff2'),
+        url('TTAutonomousTrl-ExtraBold_1.woff') format('woff'),
+        url('TTAutonomousTrl-ExtraBold_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-DemiBoldIt_1.woff2') format('woff2'),
+        url('TTAutonomousTrl-DemiBoldIt_1.woff') format('woff'),
+        url('TTAutonomousTrl-DemiBoldIt_1.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-Regular_1.woff2') format('woff2'),
+        url('TTAutonomousTrl-Regular_1.woff') format('woff'),
+        url('TTAutonomousTrl-Regular_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-ExtraLight_1.woff2') format('woff2'),
+        url('TTAutonomousTrl-ExtraLight_1.woff') format('woff'),
+        url('TTAutonomousTrl-ExtraLight_1.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-Medium_1.woff2') format('woff2'),
+        url('TTAutonomousTrl-Medium_1.woff') format('woff'),
+        url('TTAutonomousTrl-Medium_1.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-It_1.woff2') format('woff2'),
+        url('TTAutonomousTrl-It_1.woff') format('woff'),
+        url('TTAutonomousTrl-It_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-LightIt_1.woff2') format('woff2'),
+        url('TTAutonomousTrl-LightIt_1.woff') format('woff'),
+        url('TTAutonomousTrl-LightIt_1.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-ExtraLightIt_1.woff2') format('woff2'),
+        url('TTAutonomousTrl-ExtraLightIt_1.woff') format('woff'),
+        url('TTAutonomousTrl-ExtraLightIt_1.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-BoldIt_1.woff2') format('woff2'),
+        url('TTAutonomousTrl-BoldIt_1.woff') format('woff'),
+        url('TTAutonomousTrl-BoldIt_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-Bold_1.woff2') format('woff2'),
+        url('TTAutonomousTrl-Bold_1.woff') format('woff'),
+        url('TTAutonomousTrl-Bold_1.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-DemiBold_1.woff2') format('woff2'),
+        url('TTAutonomousTrl-DemiBold_1.woff') format('woff'),
+        url('TTAutonomousTrl-DemiBold_1.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Autonomous Trl';
+    src: url('TTAutonomousTrl-Light_1.woff2') format('woff2'),
+        url('TTAutonomousTrl-Light_1.woff') format('woff'),
+        url('TTAutonomousTrl-Light_1.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
