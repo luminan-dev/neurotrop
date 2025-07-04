@@ -1407,7 +1407,7 @@ body {
 /* footer end */
 
 /* media queries start */
-@media(min-width: 1024px) {
+@media(max-width: 1024px) {
   .container {
     max-width: 984px;
     padding-inline: 20px;
@@ -1468,7 +1468,7 @@ body {
 }
 
 /* custom media for tablets */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   body {
     overflow-x: hidden !important;
   }
