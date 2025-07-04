@@ -105,6 +105,24 @@ body {
 .tabs .tab-item.active {
   opacity: 0.5;
 }
+/* media fixed */
+.media-fixed{
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: linear-gradient(149.04deg, rgba(57, 66, 0, 0.75) 31.25%, rgba(32, 37, 0, 0.75) 93.13%);
+  border-bottom-left-radius: 32px;
+}
+.media-fixed .box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 24px 26px 15px 26px;
+}
+/* end */
+
 /* swiper section */
 .swiper {
   position: relative; /* Shart, chunki tugmalar joylashishi uchun asos */
@@ -157,6 +175,16 @@ body {
   bottom: -300px !important;
   z-index: 18 !important;
   left: 0px;
+}
+.intro-one .swiper-pagination-bullet {
+  background: #000;
+  width: 16px;
+  height: 16px;  
+}
+.intro-one .swiper-pagination-bullet-active {
+  background-color: var(--yellowgreen);
+  width: 24px;
+  height: 24px;
 }
 /* header start */
 .header {
@@ -473,6 +501,7 @@ body {
   overflow: hidden;
   position: relative;
   display: flex;
+  background-color: #fff  ;
   justify-content: center;
   align-items: center;
 }
@@ -690,13 +719,13 @@ body {
 .intro-bottom .swiper-card-title {
   font-family: "TT Autonomous Trl";
   font-weight: 700;
-  font-size: 24px;
+  font-size: 24px !important;
   line-height: 160%;
   letter-spacing: 0%;
   text-transform: uppercase;
 }
 .intro-bottom .swiper-card-info {
-  font-size: 24px;
+  font-size: 24px !important;
   line-height: 160%;
   opacity: 0.25;
 }
@@ -917,6 +946,7 @@ body {
 .mushrooms .buttons {
   position: relative;
   z-index: 2;
+  width: 100%;
 }
 
 .mushrooms .content-box {
@@ -1007,13 +1037,13 @@ body {
   position: relative;
   z-index: 1;
 }
-.swiper-pagination-review .swiper-pagination-bullet {
+.swiper-pagination-bottom .swiper-pagination-bullet {
   background-color: #fff !important;
   width: 16px;
   height: 16px;
   opacity: 25%;
 }
-.swiper-pagination-review .swiper-pagination-bullet-active {
+.swiper-pagination-bottom .swiper-pagination-bullet-active {
   width: 24px;
   height: 24px;
   background: radial-gradient(50% 50% at 50% 50%, #CFEE13 0%, #CEE73C 100%);
@@ -1247,7 +1277,7 @@ body {
   margin-top: 10px;
 }
 .example::before {
-  content: "*";
+  content: "";
   width: 1240px;
   height: 1px;
   position: absolute;
@@ -1377,7 +1407,7 @@ body {
 /* footer end */
 
 /* media queries start */
-@media(max-width: 1024px) {
+@media(min-width: 1024px) {
   .container {
     max-width: 984px;
     padding-inline: 20px;
@@ -1388,6 +1418,7 @@ body {
   }
   .nav-list{
     overflow-x: auto;
+    display: none;
   }
   .intro-one .content-box .info .desc{
     max-width: 620px;
@@ -1398,6 +1429,12 @@ body {
   }
   .q-and-a .question{
     font-size: 20px ;
+  }
+  .tabs .tab-item{
+    white-space: nowrap;
+  }
+  .tabs scroll{
+    display: none;
   }
   /* .header .elements{
     display: none;
@@ -1431,13 +1468,21 @@ body {
 }
 
 /* custom media for tablets */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   body {
     overflow-x: hidden !important;
   }
-  .header {
+  .header{
     background: none;
+    border: none;
+    box-shadow: none;
+    display: block  ;
+  }
+  .header .elements{
     display: none;
+  }
+  .media-fixed{
+    display: block;
   }
   .container {
     max-width: 984px;
@@ -1446,7 +1491,7 @@ body {
   }
 
   .intro-one {
-    padding: 0;
+    padding-top: 124px;
     padding-bottom: 80px;
     height: fit-content !important;
     width: 100%;
@@ -1498,7 +1543,6 @@ body {
   .mushroom-bg {
     max-width: 630px !important;
     max-height: 353.5px !important;
-    top: 59px !important;
     right: -100px !important;
   }
   .light-main {
@@ -1514,12 +1558,13 @@ body {
     transform: translateY(-50%);
   }
   .intro-one .prev-btn {
-    top: 80% !important;
-    left: 45% !important;
+    top: 0;
+    left: 75% !important;
+    z-index: 2 !important;
   }
   .intro-one .next-btn {
-    top: 80% !important;
-    right: 45% !important;
+    top: 0 !important;
+    right: 0 !important;
   }
   .intro-one .prev-btn svg,
   .intro-one .next-btn svg {
@@ -1577,7 +1622,10 @@ body {
   }
   .intro-one .swiper-pagination {
     top: 50px !important;
-    left: 44% !important;
+    left: 75% !important;
+    width: fit-content;
+    height: fit-content;
+  }
   }
   .intro-one .swiper-pagination-bullet {
     scale: 0.5;
@@ -1600,18 +1648,18 @@ body {
   .intro-bottom .slider-title {
     font-family: "TT Autonomous Trl";
     font-weight: 700;
-    font-size: 20px;
+    font-size: 20px !important;
     line-height: 160%;
     text-transform: uppercase;
     color: #cfee13;
   }
-  .swiper-card .swiper-card-title {
+  .intro-bottom  .swiper-card-title {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 18px ;
     line-height: 160%;
     text-transform: uppercase;
   }
-  .swiper-card .swiper-card-info {
+  .intro-bottom .swiper-card-info {
     font-size: 16px;
     line-height: 160%;
   }
@@ -1707,11 +1755,11 @@ body {
     height: 32px;
   }
   .events .next-btn-bottom {
-    bottom: -300px;
-    right: 200px;
+    bottom: -350px !important;
+    right: 350px;
   }
   .events .prev-btn-bottom {
-    bottom: -300px;
+    bottom: -350px; 
     left: 200px;
   }
 
@@ -1775,28 +1823,6 @@ body {
   .footer .bottom-container{
     padding-inline: 20px;
   }
-}
-/* @media (max-width: 375px){
-  .container{
-    max-width: 320px;
-    margin-inline: auto;
-    padding: 0;
-  }
-  .buttons{
-    display: flex;
-    flex-direction: column;
-  }
-  .intro-one  .buttons .prev-btn{
-    width: 100%;
-    bottom: -150px !important;
-    left: 40% !important;
-  }
-  .buttons .next-btn{
-    width: 100%;
-    bottom: -150px !important;
-    right: 40% !important;
-  }
-} */
  @media (max-width: 375px){
   .container{
     max-width: 320px;
@@ -1818,6 +1844,9 @@ body {
     width: 100%;
     bottom: 150px;
     right: 40%;
+  }
+  .intro-one .desc{
+    max-width: 320px !important;
   }
   .to-basket{
     scale: .7;
